@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.btn {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  padding: 10px 45px;
+}
+
+.btn-primary {
+  color: #fff;
+}
+
+.div-home {
+  padding: 100px 100px;
+  text-align: center;
+}
+
+.capa-txt {
+  padding: 200px 0px 100px 50px;
+  background-color: #0048cd;
+}
+
+.img-capa {
+  padding: 50px 0px 100px 0px;
+  background-color: #0048cd;
+}
+
+.capa {
+  background-color: #0048cd;
+  color: #fff;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title-p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.subtitle {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.txt {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sobre {
+  padding: 100px 100px;
+  background-color: #e6e6e6;
+}
+
+.img-sobre {
+  padding: 30px 0px 30px 0px;
+}
+
+.sobre-txt {
+  padding: 100px 0px 30px 0px;
+  
+}
+
+.servicos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.servico {
+  padding: 50px;
+  text-align: center;
+}
+
+.frm-contato {
+  padding: 100px 100px;
+  text-align: center;
+}
+
+.frm-input {
+  border-radius: 0%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
