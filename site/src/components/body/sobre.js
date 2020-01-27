@@ -1,11 +1,11 @@
 import React from 'react';
 import "./index.css";
-import Imagem from "../../images/sobre.png";
+import Imagem from "../../images/sobre_2.png";
 
 class Sobre extends React.Component {
     render() {
         return(
-            <div className="container-fluid sobre shadow">
+            <div className="container-fluid sobre">
                 <div className="row">
                     <div className="col-md-1"></div>
                     <div className="col-md-5 col-sm-6">
@@ -19,10 +19,7 @@ class Sobre extends React.Component {
                         Morbi at nisl at mi vestibulum sodales. Duis ante nibh, 
                         suscipit quis ligula ut, faucibus luctus ligula. Nam in mollis velit. 
                         Fusce maximus, neque ultrices tristique interdum, eros lorem semper purus, 
-                        sit amet maximus massa eros et nisi. Aenean bibendum, tellus eu consequat 
-                        aliquam, diam mauris varius velit, at interdum enim urna imperdiet quam. 
-                        Curabitur accumsan posuere tempor. Ut nec pretium turpis. In finibus 
-                        dignissim leo quis ultricies.</p>
+                        sit amet maximus massa eros et nisi. </p>
                     </div>
                     <div className="col-md-1"></div>
                 </div>

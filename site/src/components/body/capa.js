@@ -1,6 +1,5 @@
 import React from 'react';
 import "./index.css";
-import Imagem from "../../images/capa.png";
 
 class Capa extends React.Component {
     render() {
@@ -18,7 +17,6 @@ class Capa extends React.Component {
                             <button className="btn btn-outline-light">Saiba Mais</button>
                         </div>
                         <div className="col-md col-sm">
-                            <img className="img-capa img-fluid" src={Imagem}/>
                         </div>
                     </div>
                 </div>

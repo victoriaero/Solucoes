@@ -10,10 +10,12 @@ function App() {
   return (
     <div className="App">
         <Header />
+      <div className="bg-gradiente">
         <Capa />
         <Sobre />
         <Servicos />
         <Contato />
+      </div>
         <Footer />
     </div>
   );
