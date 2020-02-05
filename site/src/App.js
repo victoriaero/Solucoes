@@ -9,9 +9,11 @@ import Footer from './components/footer';
 function App() {
   return (
     <div className="App">
+      <div className="container-fluid capa">
         <Header />
-      <div className="bg-gradiente">
         <Capa />
+      </div>
+      <div className="bg-gradiente">
         <Sobre />
         <Servicos />
         <Contato />

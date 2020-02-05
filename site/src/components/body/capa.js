@@ -4,7 +4,6 @@ import "./index.css";
 class Capa extends React.Component {
     render() {
         return (
-            <div className="container-fluid capa">
                 <div className="container">
                     <div className="row">
                         <div className="col-md col-sm capa-txt">
@@ -20,7 +19,6 @@ class Capa extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
         );
     }
 }

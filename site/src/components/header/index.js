@@ -5,7 +5,7 @@ class Header extends React.Component {
     render() {
         return (
             <header className="main-header">
-                <div className="container-fluid shadow-sm bg-light">
+                <div className="container-fluid">
                     <nav className="navbar">
                         <div className="container">
                             <nav className="navbar navbar-expand-lg">

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./index.css";
-import Imagem from "../../images/sobre_2.png";
+import Imagem from "../../images/sobre.png";
 
 class Sobre extends React.Component {
     render() {
@@ -12,7 +12,7 @@ class Sobre extends React.Component {
                         <img className="img-sobre img-fluid" src={Imagem}/>
                     </div>
                     <div className="col-md-5 col-sm-6 sobre-txt">
-                        <h2 className="title-p">Quem somos</h2>
+                        <h2 className="title-p">Uma empresa especializada em renovar o seu negócio</h2>
                         <p className="txt">Morbi quam velit, 
                         tincidunt non finibus et, malesuada at orci. 
                         Aenean ultrices rhoncus porta. Vestibulum vel varius sapien. 
