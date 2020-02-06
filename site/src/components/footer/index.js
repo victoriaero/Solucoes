@@ -4,9 +4,11 @@ import "./index.css";
 class Footer extends React.Component {
     render() {
         return(
-            <div className="container footer">
+        <footer className="footer">
+            <div className="container-fluid">
                 <p className="txt">All rights reverved Soluções de Maria 2020</p>
             </div>
+        </footer>
         );
     }
 }

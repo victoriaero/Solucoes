@@ -12,7 +12,7 @@ class Sobre extends React.Component {
                         <img className="img-sobre img-fluid" src={Imagem}/>
                     </div>
                     <div className="col-md-5 col-sm-6 sobre-txt">
-                        <h2 className="title-p">Uma empresa especializada em renovar o seu negócio</h2>
+                        <h2 className="title">Uma empresa especializada em renovar o seu negócio</h2>
                         <p className="txt">Morbi quam velit, 
                         tincidunt non finibus et, malesuada at orci. 
                         Aenean ultrices rhoncus porta. Vestibulum vel varius sapien. 

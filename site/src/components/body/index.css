@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
 .btn {
   margin-top: 20px;
@@ -7,17 +8,8 @@
   padding: 10px 45px;
 }
 
-.btn-primary {
-  color: #fff;
-}
-
-.div-home {
-  padding: 100px 100px;
-  text-align: center;
-}
-
 .capa-txt {
-  padding: 200px 0px 100px 50px;
+  padding: 200px 0px 120px 30px;
 }
 
 .capa {
@@ -28,11 +20,8 @@
 }
 
 .title {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.title-p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-size: 44px;
 }
 
 .subtitle {
@@ -44,7 +33,7 @@
 }
 
 .sobre {
-  margin-right: 100px;
+  padding: 50px;
   background-color: #e6e6e6;
 }
 
@@ -53,13 +42,13 @@
 }
 
 .sobre-txt {
-  padding: 150px 150px 30px 0px; 
+  padding: 100px 150px 30px 0px; 
 }
 
 .bg-servicos {
   padding: 100px 50px 50px 50px;
   color: #fff;
-  background: linear-gradient(to bottom, #618afa 0%,#618afa 50%,#000000 50%,#f5f5f5 50%,#f5f5f5 100%);
+  background: linear-gradient(to bottom, #94c2ff 0%,#94c2ff 50%,#000000 50%,#f5f5f5 50%,#f5f5f5 100%);
 }
 
 .servicos {
@@ -73,21 +62,21 @@
   padding: 100px 50px 100px 50px;
   text-align: center;
   color: #fff;
-  background-color: #001d6e;
+  background-color: #256ecf;
 }
 
 .servico-2 {
   padding: 100px 50px 100px 50px;
   text-align: center;
   color: #fff;
-  background-color: #16358a;
+  background-color: #3e7ac9;
 }
 
 .servico-3 {
   padding: 100px 50px 100px 50px;
   text-align: center;
   color: #fff;
-  background-color: #446ad4;
+  background-color: #4a8ee8;
 }
 
 .icone {
@@ -95,9 +84,12 @@
   margin-bottom: 30px;
 }
 
+.contato {
+  background-color: #f5f5f5;
+}
+
 .frm-contato {
-  padding: 100px 100px;
-  text-align: center;
+  padding: 50px 100px 100px 100px;
 }
 
 .frm-input {
@@ -106,6 +98,24 @@
   margin-bottom: 10px;
 }
 
-.bg-gradiente{
-  background-image: linear-gradient(#76b9f0, #fff);
+.frm {
+  text-align: center;
 }
+
+.info-txt {
+  margin-top: 10px;
+}
+
+/* .redes{
+  margin-top: 100px;
+  text-align: center;
+
+}
+
+.icones {
+  text-align: center;
+}
+
+.icone-redes {
+  padding: 10px 20px 10px 20px;
+} */

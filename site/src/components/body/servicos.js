@@ -17,7 +17,7 @@ class Servicos extends React.Component {
                             <button className="btn btn-outline-light">Saiba Mais</button>
                         </div>
                         <div className="col-md-4 servico-2">
-                            <i class="far fa-building icone fa-5x"></i>
+                            <i class="fas fa-paste icone fa-5x"></i>
                             <h4 className="subtitle">Lorem Ipsum</h4>
                             <p className="txt">Etiam dictum a massa sagittis posuere. 
                             Donec id ex eu lorem tempor volutpat in vel magna. 
@@ -25,7 +25,7 @@ class Servicos extends React.Component {
                             <button className="btn btn-outline-light">Saiba Mais</button>
                         </div>
                         <div className="col-md-4 servico-3">
-                            <i class="far fa-building icone fa-5x"></i>
+                            <i class="fas fa-user-friends icone fa-5x"></i>
                             <h4 className="subtitle">Lorem Ipsum</h4>
                             <p className="txt">Etiam dictum a massa sagittis posuere. 
                             Donec id ex eu lorem tempor volutpat in vel magna. 

@@ -13,11 +13,9 @@ function App() {
         <Header />
         <Capa />
       </div>
-      <div className="bg-gradiente">
         <Sobre />
         <Servicos />
         <Contato />
-      </div>
         <Footer />
     </div>
   );
