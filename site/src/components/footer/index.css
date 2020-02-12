@@ -1,3 +1,17 @@
-.footer {
-  background-color: #cfcfcf;
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+footer {
+  background-color: grey;
+  color: #fff;
+  padding: 10px 0px 10px 0px;
+  font-family: 'Merriweather', serif;
+}
+
+.icone-redes {
+  color: #fff;
+  padding: 5px;
+}
+
+.info-txt {
+  font-family: 'Merriweather', serif;
 }

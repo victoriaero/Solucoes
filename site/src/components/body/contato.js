@@ -22,9 +22,8 @@ class Contato extends React.Component {
     render() {
       return (
         <div className="container-fluid contato">
-          <form className="form-group" onSubmit={this.handleSubmit}>
+          <form className="form-group">
           <div className="container frm-contato">
-            
             <h1 className="title text-center">Contato</h1><br/>
             <div className="row">
               <div className="col-md-6 info">
@@ -32,16 +31,6 @@ class Contato extends React.Component {
                   Para mais informações, entre em contato conosco<br/> através do formulário ao lado,<br/>
                   ou então através do número (31) 98572-4865.
                 </p>
-                {/* <div className="redes">
-                  <p className="txt info-txt">
-                    Nos siga nas redes
-                  </p>
-                  <div className="icones">
-                    <a href="#"><i class="fab icone-redes fa-instagram fa-3x"></i></a>
-                    <a href="#"><i class="fab icone-redes fa-facebook-f fa-3x"></i></a>
-                    <a href="#"><i class="fab icone-redes fa-twitter fa-3x"></i></a>
-                  </div>
-                </div> */}
               </div>
               <div className="col-md-6 frm">
                 <input className="form-control frm-input" type="text" value={this.state.value} onChange={this.handleChange} placeholder="Nome"/>
