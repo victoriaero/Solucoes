@@ -1,12 +1,14 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./index.css";
 
 class Header extends React.Component {
+
     render() {
         return (
             <header className="main-header">
                 <div className="container-fluid">
-                    <nav className="navbar">
+                    <nav className="navbar fixed-top">
                         <div className="container">
                             <nav className="navbar navbar-expand-lg">
                                 <a className="navbar-brand" href="#">Soluções de Maria</a>
@@ -16,16 +18,56 @@ class Header extends React.Component {
                                 <div className="collapse navbar-collapse">
                                 <ul className="navbar-nav mr-auto">
                                     <li className="nav-item">
-                                    <a className="nav-link" href="#">Home</a>
+                                    <Link
+                                        className="nav-link"
+                                        activeClass="active"
+                                        to="capa"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration={500}
+                                    >
+                                        Início
+                                    </Link>
                                     </li>
                                     <li className="nav-item">
-                                    <a className="nav-link" href="#">Quem somos</a>
+                                    <Link
+                                        className="nav-link"
+                                        activeClass="active"
+                                        to="sobre"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={0}
+                                        duration={500}
+                                    >
+                                        Quem Somos
+                                    </Link>
                                     </li>
                                     <li className="nav-item">
-                                    <a className="nav-link" href="#">Serviços</a>
+                                    <Link
+                                        className="nav-link"
+                                        activeClass="active"
+                                        to="servicos"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={0}
+                                        duration={500}
+                                    >
+                                        Serviços
+                                    </Link>
                                     </li>
                                     <li className="nav-item">
-                                    <a className="nav-link" href="#">Contato</a>
+                                    <Link
+                                        className="nav-link"
+                                        activeClass="active"
+                                        to="contato"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={0}
+                                        duration={500}
+                                    >
+                                        Contato
+                                    </Link>
                                     </li>
                                 </ul>
                                 </div>

@@ -10,9 +10,9 @@ class Footer extends React.Component {
                         <div className="col-md-6 redes">
                             <p className="txt info-txt">
                                 Nos siga nas redes
-                                <a href="#"><i class="fab icone-redes fa-instagram fa-lg"></i></a>
-                                <a href="#"><i class="fab icone-redes fa-facebook-f fa-lg"></i></a>
-                                <a href="#"><i class="fab icone-redes fa-twitter fa-lg"></i></a>
+                                <a href="#"><i className="fab icone-redes fa-instagram fa-lg"></i></a>
+                                <a href="#"><i className="fab icone-redes fa-facebook-f fa-lg"></i></a>
+                                <a href="#"><i className="fab icone-redes fa-twitter fa-lg"></i></a>
                             </p>  
                         </div>
                         <div className="col-md-6">

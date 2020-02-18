@@ -2,10 +2,18 @@
     background-color: none;
 }
 
-.nav-link, .navbar-brand {
+.navbar.scrolled{
+    background-color: #fff;
+}
+
+.nav-item, .navbar-brand {
     color: #fff;
 }
 
-.nav-link:hover, .navbar-brand:hover{
+.nav-item:hover, .navbar-brand:hover{
     color: #e6e6e6;
+}
+
+.nav-item > .active {
+    color: #103bca;
 }
