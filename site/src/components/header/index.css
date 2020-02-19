@@ -1,4 +1,5 @@
-.navbar {
+.navbar-transparent {
+    transition: 500ms;
     background-color: none;
 }
 
@@ -14,6 +15,7 @@
     color: #e6e6e6;
 }
 
-.nav-item > .active {
-    color: #103bca;
+.navbar-light {
+    transition: 500ms;
+    background-color: #f8f9fa;
 }

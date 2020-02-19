@@ -4,11 +4,45 @@ import "./index.css";
 
 class Header extends React.Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {
+          collapseOpen: false,
+          color: "navbar-transparent"
+        };
+    }
+
+    componentDidMount() {
+        window.addEventListener("scroll", this.changeColor);
+    }
+    
+    componentWillUnmount() {
+        window.removeEventListener("scroll", this.changeColor);
+    }
+
+    changeColor = () => {
+        if (
+          document.documentElement.scrollTop > 99 ||
+          document.body.scrollTop > 99
+        ) {
+          this.setState({
+            class: 'navbar-light shadow-sm'
+          });
+        } else if (
+          document.documentElement.scrollTop < 100 ||
+          document.body.scrollTop < 100
+        ) {
+          this.setState({
+            class: "navbar-transparent"
+          });
+        }
+    };
+
     render() {
         return (
             <header className="main-header">
                 <div className="container-fluid">
-                    <nav className="navbar fixed-top">
+                    <nav className={"navbar fixed-top " + this.state.class}>
                         <div className="container">
                             <nav className="navbar navbar-expand-lg">
                                 <a className="navbar-brand" href="#">Soluções de Maria</a>
@@ -63,7 +97,7 @@ class Header extends React.Component {
                                         to="contato"
                                         spy={true}
                                         smooth={true}
-                                        offset={0}
+                                        offset={-70}
                                         duration={500}
                                     >
                                         Contato

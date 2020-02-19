@@ -2,22 +2,6 @@ import React from 'react';
 import "./index.css";
 
 class Contato extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = {value: ''};
-  
-      this.handleChange = this.handleChange.bind(this);
-      this.handleSubmit = this.handleSubmit.bind(this);
-    }
-  
-    handleChange(event) {
-      this.setState({value: event.target.value});
-    }
-  
-    handleSubmit(event) {
-      console.log(this.state.value)
-      event.preventDefault();
-    }
   
     render() {
       return (
@@ -34,10 +18,10 @@ class Contato extends React.Component {
                   </p>
                 </div>
                 <div className="col-md-6 frm">
-                  <input className="form-control frm-input" type="text" value={this.state.value} onChange={this.handleChange} placeholder="Nome"/>
-                  <input className="form-control frm-input" type="text" value={this.state.value} onChange={this.handleChange} placeholder="Email"/>
-                  <input className="form-control frm-input" type="text" value={this.state.value} onChange={this.handleChange} placeholder="Assunto"/>
-                  <textarea className="form-control frm-input" rows="5" value={this.state.value} onChange={this.handleChange} placeholder="Mensagem"></textarea>
+                  <input className="form-control frm-input" type="text" placeholder="Nome"/>
+                  <input className="form-control frm-input" type="text" placeholder="Email"/>
+                  <input className="form-control frm-input" type="text" placeholder="Assunto"/>
+                  <textarea className="form-control frm-input" rows="5" placeholder="Mensagem"></textarea>
                   <button className="btn btn-primary" type="submit">Enviar</button>
                 </div>      
               </div>
