@@ -26,6 +26,7 @@
 
 .subtitle {
   font-family: 'Poppins', sans-serif;
+  color: #94c2ff;
 }
 
 .txt {
@@ -47,8 +48,12 @@
 
 .bg-servicos {
   padding: 100px 50px 50px 50px;
-  color: #fff;
   background: linear-gradient(to bottom, #94c2ff 0%,#94c2ff 50%,#000000 50%,#f5f5f5 50%,#f5f5f5 100%);
+}
+
+.texto-servicos {
+  color: #fff;
+  margin-bottom: 70px;
 }
 
 .servicos {
@@ -56,6 +61,45 @@
   margin-bottom: 50px;
   text-align: center;
   background-color: #fff;
+}
+
+.servico {
+  padding: 20px;
+  align-content: center;
+}
+
+.servico-box {
+  border-radius: 5px;
+  background-color: #fff;
+  color: #212529;
+  padding: 40px 30px;
+}
+
+.texto-servico {
+  text-align: left;
+}
+
+.btn-servico {
+  padding: 10px 20px;
+  border-color: #94c2ff;
+  background-color: #94c2ff;
+  color: #fff;
+}
+
+.btn-servico :hover{
+  border-color: #94c2ff;
+  background-color: #94c2ff;
+}
+
+.icone-round {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #94c2ff;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0px 0px 0px;
+  margin-bottom: 30px;
 }
 
 .servico-1 {
