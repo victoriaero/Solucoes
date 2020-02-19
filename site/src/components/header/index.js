@@ -22,15 +22,15 @@ class Header extends React.Component {
 
     changeColor = () => {
         if (
-          document.documentElement.scrollTop > 99 ||
-          document.body.scrollTop > 99
+          document.documentElement.scrollTop > 199 ||
+          document.body.scrollTop > 199
         ) {
           this.setState({
             class: 'navbar-light shadow-sm'
           });
         } else if (
-          document.documentElement.scrollTop < 100 ||
-          document.body.scrollTop < 100
+          document.documentElement.scrollTop < 200 ||
+          document.body.scrollTop < 200
         ) {
           this.setState({
             class: "navbar-transparent"
@@ -97,7 +97,7 @@ class Header extends React.Component {
                                         to="contato"
                                         spy={true}
                                         smooth={true}
-                                        offset={-70}
+                                        offset={0}
                                         duration={500}
                                     >
                                         Contato

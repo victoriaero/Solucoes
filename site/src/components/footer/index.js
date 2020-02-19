@@ -6,15 +6,7 @@ class Footer extends React.Component {
         return(
 
             <footer className="page-footer">
-                <div className="container-fluid footer-topo">
-                    <p>
-                        Nos siga nas redes
-                        <a href="#"><i className="fab icone-redes fa-instagram fa-lg"></i></a>
-                        <a href="#"><i className="fab icone-redes fa-facebook-f fa-lg"></i></a>
-                        <a href="#"><i className="fab icone-redes fa-twitter fa-lg"></i></a>
-                    </p>
-                </div>
-                <div className="container-fluid footer-base">
+                <div className="container-fluid footer text-center">
                     <p className="txt">&copy; 2020 Soluções de Maria</p>
                 </div>
             </footer>
