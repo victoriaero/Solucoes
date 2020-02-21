@@ -3,10 +3,6 @@
     background-color: none;
 }
 
-.navbar.scrolled{
-    background-color: #fff;
-}
-
 .nav-item, .navbar-brand {
     color: #fff;
 }
@@ -17,5 +13,5 @@
 
 .navbar-light {
     transition: 500ms;
-    background-color: #f8f9fa;
+    background-color: #f8f9fa;    
 }

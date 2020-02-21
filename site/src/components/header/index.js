@@ -22,15 +22,15 @@ class Header extends React.Component {
 
     changeColor = () => {
         if (
-          document.documentElement.scrollTop > 199 ||
-          document.body.scrollTop > 199
+          document.documentElement.scrollTop > 599 ||
+          document.body.scrollTop > 599
         ) {
           this.setState({
             class: 'navbar-light shadow-sm'
           });
         } else if (
-          document.documentElement.scrollTop < 200 ||
-          document.body.scrollTop < 200
+          document.documentElement.scrollTop < 600 ||
+          document.body.scrollTop < 600
         ) {
           this.setState({
             class: "navbar-transparent"
