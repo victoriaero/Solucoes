@@ -12,7 +12,7 @@ class Capa extends React.Component {
                             <p className="txt text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Maecenas lobortis, ipsum dignissim ultricies finibus, quam erat dignissim eros, a bibendum
                             massa magna vel neque.</p>
-                            <button className="btn btn-outline-light">Saiba Mais</button>
+                            {/* <button className="btn btn-outline-light">Saiba Mais</button> */}
                         </div>
                         <div className="col-md col-sm">
                         </div>

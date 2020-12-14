@@ -32,7 +32,7 @@ class Servicos extends React.Component {
                                     Donec id ex eu lorem tempor volutpat in vel magna. 
                                     Aenean dolor quam, malesuada non quam vitae.</p>
                                 </div>
-                                <button className="btn btn-outline-primary btn-sm btn-servico">Saiba Mais</button>
+                                {/* <button className="btn btn-outline-primary btn-sm btn-servico">Saiba Mais</button> */}
                             </div>
                         </div>
                         <div className="col-md-4 servico">
@@ -46,7 +46,7 @@ class Servicos extends React.Component {
                                     Donec id ex eu lorem tempor volutpat in vel magna. 
                                     Aenean dolor quam, malesuada non quam vitae.</p>
                                 </div>
-                                <button className="btn btn-outline-primary btn-sm btn-servico">Saiba Mais</button>
+                                {/* <button className="btn btn-outline-primary btn-sm btn-servico">Saiba Mais</button> */}
                             </div>
                         </div>
                         <div className="col-md-4 servico">
@@ -60,7 +60,7 @@ class Servicos extends React.Component {
                                     Donec id ex eu lorem tempor volutpat in vel magna. 
                                     Aenean dolor quam, malesuada non quam vitae.</p>
                                 </div>
-                                <button className="btn btn-outline-primary btn-sm btn-servico">Saiba Mais</button>
+                                {/* <button className="btn btn-outline-primary btn-sm btn-servico">Saiba Mais</button> */}
                             </div>
                         </div>
                     </div> 
