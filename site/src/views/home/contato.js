@@ -1,9 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./index.css";
+import { useHistory } from 'react-router-dom';
 
-class Contato extends React.Component {
+import api from '../../services/api';
+
+      export default function Validation() {
+
+        const [name, setName] = useState('');
+        const [mail, setMail] = useState('');
+        const [subject, setSubject] = useState('');
+        const [message, setMessage] = useState('');
+      
+        const history = useHistory();
+      
+        async function handleSendMail(e){
+      
+          e.preventDefault();
+      
+          const email = {
+            name,
+            mail,
+            subject,
+            message
+          };
+      
+          try {
+            const response = await api.post("/form", email);
+            alert("Mensagem enviada com sucesso!");
+            window.location.reload();
+          } catch (err) {
+            console.log(err);
+            alert("Houve algum erro, tente novamente.");
+          }
+      
+        }
   
-    render() {
       return (
 
         <section id="contato" className="contato">
@@ -29,12 +60,12 @@ class Contato extends React.Component {
               </div>
               <div className="col-md-5">
                 <div className="frm-box shadow">
-                  <form className="form-group" method="POST" action="#">
+                  <form id="form_email" className="form-group" onSubmit={handleSendMail}>
                     <p>Preencha o formulário</p>
-                    <input className="form-control frm-input" type="text" placeholder="Nome"/>
-                    <input className="form-control frm-input" type="text" placeholder="Email"/>
-                    <input className="form-control frm-input" type="text" placeholder="Assunto"/>
-                    <textarea className="form-control frm-input" rows="5" placeholder="Mensagem"></textarea>
+                    <input value={name} onChange={e => setName(e.target.value)} className="form-control frm-input" type="text" placeholder="Nome"/>
+                    <input value={mail} onChange={e => setMail(e.target.value)} className="form-control frm-input" type="text" placeholder="Email"/>
+                    <input value={subject} onChange={e => setSubject(e.target.value)} className="form-control frm-input" type="text" placeholder="Assunto"/>
+                    <textarea value={message} onChange={e => setMessage(e.target.value)} className="form-control frm-input" rows="5" placeholder="Mensagem"></textarea>
                     <button className="btn btn-outline-light" type="submit">Enviar</button>
                   </form>
                 </div>
@@ -45,6 +76,3 @@ class Contato extends React.Component {
         </section>
       );
     }
-}
-
-export default Contato;
