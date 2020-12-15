@@ -9,12 +9,12 @@ class Sobre extends React.Component {
                 <div className="container-fluid sobre">
                     <div className="row">
                         <div className="col-md-1"></div>
-                        <div className="col-md-5 col-sm-6">
+                        <div className="col-md-5 d-none d-sm-block">
                             <img className="img-sobre img-fluid" alt="Sobre" src={Imagem}/>
                         </div>
-                        <div className="col-md-5 col-sm-6 sobre-txt">
+                        <div className="col-md-5 col-xs-6 sobre-txt">
                             <h2 className="title">Uma empresa especializada em renovar o seu negócio</h2>
-                            <p className="txt">Morbi quam velit, 
+                            <p className="txt text-justify">Morbi quam velit, 
                             tincidunt non finibus et, malesuada at orci. 
                             Aenean ultrices rhoncus porta. Vestibulum vel varius sapien. 
                             Morbi at nisl at mi vestibulum sodales. Duis ante nibh, 

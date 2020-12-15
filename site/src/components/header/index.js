@@ -46,9 +46,9 @@ class Header extends React.Component {
                         <div className="container">
                             <nav className="navbar navbar-expand-lg">
                                 <a className="navbar-brand" href="#">Soluções de Maria</a>
-                                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação"><span className="navbar-toggler-icon"></span></button>
+                                {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação"><span className="navbar-toggler-icon"></span></button> */}
                             </nav>
-                            <nav className="navbar navbar-expand-lg justify-content-end">
+                            <nav className="navbar navbar-expand-mg justify-content-end">
                                 <div className="collapse navbar-collapse">
                                 <ul className="navbar-nav mr-auto">
                                     <li className="nav-item">

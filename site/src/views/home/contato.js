@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "./index.css";
-import { useHistory } from 'react-router-dom';
 
 import api from '../../services/api';
 
@@ -10,8 +9,6 @@ import api from '../../services/api';
         const [mail, setMail] = useState('');
         const [subject, setSubject] = useState('');
         const [message, setMessage] = useState('');
-      
-        const history = useHistory();
       
         async function handleSendMail(e){
       
@@ -25,7 +22,7 @@ import api from '../../services/api';
           };
       
           try {
-            const response = await api.post("/form", email);
+            await api.post("/form", email);
             alert("Mensagem enviada com sucesso!");
             window.location.reload();
           } catch (err) {
@@ -44,8 +41,8 @@ import api from '../../services/api';
               <div className="col-md-5 contato-box">
                 <h1 className="title">Contato</h1>
                 <p className="txt">
-                  Para mais informações, entre em contato conosco<br/> através do formulário ao lado,<br/>
-                  ou então através do número (31) 98572-4865.
+                  Para mais informações, entre em contato conosco através do formulário
+                  ou por meio do número (31) 98572-4865.
                 </p>
                 <div className="redes-box">
                   <p className="txt">
