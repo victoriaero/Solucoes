@@ -28,7 +28,7 @@ module.exports = {
             console.log(err);
         });
 
-        return response.status(202).json({email}).send();
+        return response.status(200).send();
     }
 
 }
