@@ -16,10 +16,10 @@ module.exports = {
         const { name, mail, subject, message } = request.body;
 
         var email = {
-            from: "Victoria <victoria.e.ramos.o@gmail.com>" ,
+            from: "Soluções de Maria - Nova Mensagem do Formulário <victoria.e.ramos.o@gmail.com>" ,
             to: "victoria.e.ramos.o@gmail.com",
             subject: subject ,
-            html: "Nome: " + name + "Email: " + mail + "<br> Mensagem: " + message
+            html: "<strong>Nome: </strong>" + name + "<br><strong>Email: </strong>" + mail + "<br><strong>Mensagem: </strong>" + message
         }; 
         
         await transporter.sendMail(email).then(message => {
